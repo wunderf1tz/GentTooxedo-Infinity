@@ -2,6 +2,21 @@
 
 See here: 
 
+### Firmware:
+
+**sys-kernel/linux-firmware \
+
+Added this line to have the firwmare loaded by the kernel on bootup:
+The processor (Intel Core i7-10510U 10th generation Comet Lake) asked for this file i915/kbl_dmc_ver1_04.bin, that is included by the latest Linux Firmware.
+
+```markdown
+Device Drivers  --->
+    Generic Driver Options  --->
+        Firmware loader  --->
+          -*- Firmware loading facility
+                (i915/kbl_dmc_ver1_04.bin) Build named firmware blobs into the kernel binary
+                      (/lib/firmware) Firmware blobs root director </code>
+```
 ### Tuxedo Keyboard backlight Kernel modules:
 
 Lets you control the Keyboard backlight by pressing FN + Keys from the numberpad.
@@ -13,21 +28,6 @@ Lets you control the Keyboard backlight by pressing FN + Keys from the numberpad
 **app-laptop/tuxedo-keyboard** \
 -> Git-Repo Link: https://github.com/tuxedocomputers/tuxedo-cc-wmi
 
-
-
-
-### Firmware:
-
-Added this line to have the firwmare loaded by the kernel on bootup:
-
-```markdown
-Device Drivers  --->
-    Generic Driver Options  --->
-        Firmware loader  --->
-          -*- Firmware loading facility
-                (i915/kbl_dmc_ver1_04.bin) Build named firmware blobs into the kernel binary
-                      (/lib/firmware) Firmware blobs root director </code>
-```
 
 #### Debugging to do list:
 - [ ] Get video signal through HDMI port on external monitor -> see this [vivid exchange with Gentoo legend NeddySeagoon](https://forums.gentoo.org/viewtopic-t-1118210.html)
