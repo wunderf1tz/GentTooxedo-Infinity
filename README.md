@@ -21,6 +21,7 @@ Lets you control the Keyboard backlight by pressing FN + Keys from the numberpad
 
 **sys-power/tuxedo-cc-wmi** \
 -> Git-Repo link: https://github.com/tuxedocomputers/tuxedo-keyboard
-
-**app-laptop/tuxedo-keyboard**
+\
+\
+**app-laptop/tuxedo-keyboard** \
 -> Git-Repo Link: https://github.com/tuxedocomputers/tuxedo-cc-wmi
