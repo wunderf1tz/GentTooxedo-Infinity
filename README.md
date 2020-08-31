@@ -17,7 +17,7 @@ Device Drivers  --->
 
 ### Tuxedo Keyboard backlight Kernel modules:
 
-Lets you control the Keyboard backlight by pressing FN + Keys from the numberpad
+Lets you control the Keyboard backlight by pressing FN + Keys from the numberpad.
 
 **sys-power/tuxedo-cc-wmi** \
 -> Git-Repo link: https://github.com/tuxedocomputers/tuxedo-keyboard
