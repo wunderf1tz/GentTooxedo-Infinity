@@ -29,5 +29,5 @@ Device Drivers  --->
                       (/lib/firmware) Firmware blobs root director </code>
 ```
 
-#### Debugging list:
-- [ ] No signal with HDMI output -> see this [vivid exchange with Gentoo legend NeddySeagoon](https://forums.gentoo.org/viewtopic-t-1118210.html)
+#### Debugging to do list:
+- [ ] Get video signal through HDMI port on external monitor -> see this [vivid exchange with Gentoo legend NeddySeagoon](https://forums.gentoo.org/viewtopic-t-1118210.html)
