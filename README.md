@@ -2,6 +2,20 @@
 
 See here: 
 
+### Tuxedo Keyboard backlight Kernel modules:
+
+Lets you control the Keyboard backlight by pressing FN + Keys from the numberpad.
+
+**sys-power/tuxedo-cc-wmi** \
+-> Git-Repo link: https://github.com/tuxedocomputers/tuxedo-keyboard
+\
+\
+**app-laptop/tuxedo-keyboard** \
+-> Git-Repo Link: https://github.com/tuxedocomputers/tuxedo-cc-wmi
+
+
+
+
 ### Firmware:
 
 Added this line to have the firwmare loaded by the kernel on bootup:
@@ -15,13 +29,5 @@ Device Drivers  --->
                       (/lib/firmware) Firmware blobs root director </code>
 ```
 
-### Tuxedo Keyboard backlight Kernel modules:
-
-Lets you control the Keyboard backlight by pressing FN + Keys from the numberpad.
-
-**sys-power/tuxedo-cc-wmi** \
--> Git-Repo link: https://github.com/tuxedocomputers/tuxedo-keyboard
-\
-\
-**app-laptop/tuxedo-keyboard** \
--> Git-Repo Link: https://github.com/tuxedocomputers/tuxedo-cc-wmi
+#### Debugging list:
+- [ ] No signal with HDMI output -> see this [vivid exchange with Gentoo legend NeddySeagoon](https://forums.gentoo.org/viewtopic-t-1118210.html)
