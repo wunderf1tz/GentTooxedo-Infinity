@@ -10,14 +10,16 @@ Processor: Intel Core i7-10510U 10th generation Comet Lake
 
 Tool I used to find out which USE flag should be defined under "CPU_FLAGS_X86".
 
--> CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3"
+<code>CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3"</code>
 
 Enables auto-detection of the CPU's architecture.
--> COMMON_FLAGS="-O2 -pipe -march=native"
+<code>COMMON_FLAGS="-O2 -pipe -march=native"</code>
 
 Graphic card: Intel UHD 620
--> VIDEO_CARDS="intel i965 iris" to make.conf according to the [Gentoo Intel wiki page (8 through Gen 9+)](https://wiki.gentoo.org/wiki/Intel#USE_flags).
+According to the [Gentoo Intel wiki page (8 through Gen 9+)](https://wiki.gentoo.org/wiki/Intel#USE_flags).
 Still, no entry specifying 10th generation Intel Core Comet Lake, hopefully out soon.
+
+<code>VIDEO_CARDS="intel i965 iris"</code> 
 
 ### Firmware:
 
