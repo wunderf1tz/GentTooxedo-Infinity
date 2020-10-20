@@ -35,14 +35,14 @@ Still, no entry specifying 10th generation Intel Core Comet Lake, hopefully out 
 
 **sys-kernel/linux-firmware \
 
-Added **this lines** to have the firwmare loaded by the kernel on bootup:
+Added **this lines** to have the firwmare and microcode patches loaded by the kernel on bootup:
 
 ```markdown
 Device Drivers  --->
     Generic Driver Options  --->
         Firmware loader  --->
           -*- Firmware loading facility
-                (**i915/kbl_dmc_ver1_04.bin**) Build named firmware blobs into the kernel binary
+                (**i915/kbl_dmc_ver1_04.bin intel-ucode/06-8e-0c**) Build named firmware blobs into the kernel binary
                       (**/lib/firmware**) Firmware blobs root director </code>
 ```
 ## Tuxedo Keyboard backlight Kernel modules:
