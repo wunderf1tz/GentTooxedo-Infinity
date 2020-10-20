@@ -35,7 +35,7 @@ Still, no entry specifying 10th generation Intel Core Comet Lake, hopefully out 
 
 **sys-kernel/linux-firmware**
 
-Added **this lines** to have the firwmare and microcode patches loaded by the kernel on bootup:
+Added **this lines** to have the firmware and microcode patches loaded by the kernel on bootup:
 
 ```markdown
 Device Drivers  --->
