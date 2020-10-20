@@ -9,6 +9,7 @@ See here:
 
 Intel Core i7-10510U 10th generation Comet Lake
 
+Microcode firmware specification: 06-8e-0c
 
 **app-portage/cpuid2cpuflags**
 
