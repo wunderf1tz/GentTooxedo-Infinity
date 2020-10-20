@@ -1,0 +1,65 @@
+# package.use# required by www-client/firefox-68.9.0::gentoo[system-libvpx]
+# required by www-client/firefox (argument)
+>=media-libs/libvpx-1.7.0-r1 postproc
+# required by www-client/firefox-68.9.0::gentoo[system-sqlite]
+# required by www-client/firefox (argument)
+>=dev-db/sqlite-3.31.1 secure-delete
+# required by app-office/texstudio-2.12.22::gentoo
+# required by app-office/texstudio (argument)
+>=app-text/poppler-0.88.0-r1 qt5
+# required by dev-libs/quazip-0.8.1::gentoo
+# required by app-office/texstudio-2.12.22::gentoo
+# required by app-office/texstudio (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip
+# required by kde-apps/kdenlive-19.12.3-r3::gentoo
+# required by kde-apps/kdenlive (argument)
+>=media-libs/mlt-6.20.0 frei0r melt ffmpeg qt5 kdenlive
+# required by virtual/httpd-php-7.4::gentoo
+# required by www-apps/nextcloud-19.0.0::gentoo
+# required by www-apps/nextcloud (argument)
+>=dev-lang/php-7.4.6 xmlreader pdo gd zip xmlwriter curl intl truetype fpm
+# required by dev-php/pecl-imagick-3.4.4::gentoo
+# required by www-apps/nextcloud-19.0.0::gentoo[imagemagick]
+# required by www-apps/nextcloud (argument)
+>=media-gfx/imagemagick-7.0.10.23 -openmp
+# required by dev-lang/php-7.4.6::gentoo
+# required by virtual/httpd-php-7.4::gentoo
+# required by www-apps/nextcloud-19.0.0::gentoo
+# required by www-apps/nextcloud (argument)
+>=app-eselect/eselect-php-0.9.4-r5 fpm
+# required by net-misc/nextcloud-client-2.6.4::gentoo
+# required by net-misc/nextcloud-client (argument)
+>=dev-qt/qtwebengine-5.14.2 widgets
+# required by dev-qt/qtwebengine-5.14.2::gentoo
+# required by net-misc/nextcloud-client-2.6.4::gentoo
+# required by net-misc/nextcloud-client (argument)
+>=dev-qt/qtwebchannel-5.14.2 qml
+# required by dev-texlive/texlive-xetex-2020::gentoo
+# required by dev-texlive/texlive-formatsextra-2020-r1::gentoo
+# required by app-text/passivetex-1.25-r2::gentoo
+# required by app-text/texlive-2020-r5::gentoo[xml]
+# required by app-office/lyx-2.3.3::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+>=app-text/texlive-core-2020-r5 xetex
+# required by app-editors/neovim-0.4.3::gentoo
+# required by app-editors/neovim (argument)
+>=dev-lua/lpeg-1.0.1 luajit
+# required by app-editors/neovim-0.4.3::gentoo
+# required by app-editors/neovim (argument)
+>=dev-lua/luv-1.32.0.0 luajit
+# required by app-editors/neovim-0.4.3::gentoo
+# required by app-editors/neovim (argument)
+>=dev-lua/mpack-1.0.4 luajit
+# required by media-sound/pulseaudio-modules-bt-1.4::gentoo
+# required by pulseaudio-modules-bt (argument)
+>=media-sound/pulseaudio-13.0 -bluetooth
+# required by gui-apps/waybar-0.8.0::gentoo[tray]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
+# required by dev-python/PyQt5-5.14.2-r1::gentoo[multimedia]
+# required by app-backup/backintime-1.2.1::gentoo[qt5]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtmultimedia-5.14.2-r1 widgets
