@@ -34,3 +34,8 @@ dev-libs/libuinputplus ~amd64
 games-simulation/flightgear ~amd64
 dev-games/simgear* ~amd64
 games-simulation/flightgear* ~amd64
+net-im/zoom ~amd64
+sci-misc/mendeleydesktop ~amd64
+net-im/skypeforlinux ~amd64
+
+
