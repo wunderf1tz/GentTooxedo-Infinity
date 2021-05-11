@@ -37,5 +37,21 @@ games-simulation/flightgear* ~amd64
 net-im/zoom ~amd64
 sci-misc/mendeleydesktop ~amd64
 net-im/skypeforlinux ~amd64
-
+media-sound/auryo-bin ~amd64
+app-editors/vscodium-bin ~amd64 
+app-shells/fzf ~amd64
+net-misc/teamviewer ~amd64
+sci-mathematics/rstudio ~amd64
+dev-java/* ~amd64
+gui-libs/wlroots ~amd64
+gui-wm/sway ~amd64
+dev-libs/spdlog ~amd64
+sys-kernel/vanilla-kernel ~amd64
+virtual/dist-kernel* ~amd64
+gui-apps/wf-recorder ~amd64
+dev-lang/R ~amd64
+net-vpn/protonvpn-cli ~amd64
+media-tv/kodi ~amd64
+dev-util/android-tools ~amd64
+net-im/signal-desktop-bin ~amd64
 

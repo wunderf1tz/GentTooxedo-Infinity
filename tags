@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+CFLAGS	portage/make.conf	/^CFLAGS="${COMMON_FLAGS}"$/;"	k
+COMMON_FLAGS	portage/make.conf	/^COMMON_FLAGS="-O2 -pipe -march=native"$/;"	k
+CPU_FLAGS_X86	portage/make.conf	/^CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3/;"	k
+CXXFLAGS	portage/make.conf	/^CXXFLAGS="${COMMON_FLAGS}"$/;"	k
+DEFAULT	portage/repos.conf/gentoo.conf	/^[DEFAULT]$/;"	s
+DISTDIR	portage/make.conf	/^DISTDIR="\/var\/cache\/distfiles"$/;"	k
+Debugging to do list:	README.md	/^#### Debugging to do list:$/;"	t
+FCFLAGS	portage/make.conf	/^FCFLAGS="${COMMON_FLAGS}"$/;"	k
+FFLAGS	portage/make.conf	/^FFLAGS="${COMMON_FLAGS}"$/;"	k
+Firmware:	README.md	/^## Firmware:$/;"	s
+GENTOO_MIRRORS	portage/make.conf	/^GENTOO_MIRRORS="https:\/\/mirror.netcologne.de\/gentoo\/ $/;"	k
+GRUB_PLATFORMS	portage/make.conf	/^GRUB_PLATFORMS="efi-64"$/;"	k
+Gentoo Kernel .config and make.conf compilation USE flags for [TUXEDO InfinityBook Pro 15 v5](https://www.tuxedocomputers.com/de/Linux-Hardware/Linux-Notebooks/15-16-Zoll/TUXEDO-InfinityBook-Pro-15-v5-SILVER-Edition.tuxedo)	README.md	/^# Gentoo Kernel .config and make.conf compilation USE flags for [TUXEDO InfinityBook Pro 15 v5](/;"	c
+Graphic card: Intel UHD 620	README.md	/^### Graphic card: Intel UHD 620$/;"	S
+INPUT_DEVICES	portage/make.conf	/^INPUT_DEVICES="libinput evdev"$/;"	k
+L10N	portage/make.conf	/^L10N="de"$/;"	k
+LC_MESSAGES	portage/make.conf	/^LC_MESSAGES=C$/;"	k
+MAKEOPTS	portage/make.conf	/^MAKEOPTS="-j9"$/;"	k
+MICROCODE_SIGNATURES	portage/make.conf	/^MICROCODE_SIGNATURES="-s 0x000806ec"$/;"	k
+PKGDIR	portage/make.conf	/^PKGDIR="\/var\/cache\/binpkgs"$/;"	k
+PORTDIR	portage/make.conf	/^PORTDIR="\/var\/db\/repos\/gentoo"$/;"	k
+Processor	README.md	/^### Processor$/;"	S
+REMOTE_LIST_CACHEDIR	portage/repo.conf	/^REMOTE_LIST_CACHEDIR=~\/.cache\/eselect-repo$/;"	k
+REMOTE_LIST_REFRESH	portage/repo.conf	/^REMOTE_LIST_REFRESH=$(( 2 * 3600 ))$/;"	k
+REMOTE_LIST_URI	portage/repo.conf	/^REMOTE_LIST_URI=https:\/\/qa-reports.gentoo.org\/output\/repos\/repositories.xml$/;"	k
+REPOS_BASE	portage/repo.conf	/^REPOS_BASE=${SHAREDSTATEDIR}\/db\/repos$/;"	k
+REPOS_CONF	portage/repo.conf	/^REPOS_CONF=${SYSCONFDIR}\/portage\/repos.conf$/;"	k
+REPOS_CONF_SUBFILE	portage/repo.conf	/^REPOS_CONF_SUBFILE=${REPOS_CONF}\/eselect-repo.conf$/;"	k
+Tuxedo Keyboard backlight Kernel modules:	README.md	/^## Tuxedo Keyboard backlight Kernel modules:$/;"	s
+USE	portage/make.conf	/^USE="acpi alsa bluetooth cups custom-cflags dbus flac gles2 gtk opengl \\$/;"	k
+VIDEO_CARDS	portage/make.conf	/^VIDEO_CARDS="intel i965 iris"$/;"	k
+age	portage/repos.conf/gentoo.conf	/^sync-rsync-verify-max-age = 24$/;"	k	section:gentoo
+base	portage/repos.conf/gentoo.conf	/^sync-openpgp-key-refresh-retry-delay-exp-base = 2$/;"	k	section:gentoo
+count	portage/repos.conf/gentoo.conf	/^sync-openpgp-key-refresh-retry-count = 40$/;"	k	section:gentoo
+gentoo	portage/repos.conf/gentoo.conf	/^[gentoo]$/;"	s
+guru	portage/repos.conf/eselect-repo.conf	/^[guru]$/;"	s
+jobs	portage/repos.conf/gentoo.conf	/^sync-rsync-verify-jobs = 1$/;"	k	section:gentoo
+keyserver	portage/repos.conf/gentoo.conf	/^sync-openpgp-keyserver = hkps:\/\/keys.gentoo.org$/;"	k	section:gentoo
+localrepo	portage/repos.conf/localrepo.conf	/^[localrepo]$/;"	s
+location	portage/repos.conf/eselect-repo.conf	/^location = \/var\/db\/repos\/guru$/;"	k	section:guru
+location	portage/repos.conf/eselect-repo.conf	/^location = \/var\/db\/repos\/steam-overlay$/;"	k	section:steam-overlay
+location	portage/repos.conf/eselect-repo.conf	/^location = \/var\/db\/repos\/xdch47$/;"	k	section:xdch47
+location	portage/repos.conf/gentoo.conf	/^location = \/var\/db\/repos\/gentoo$/;"	k	section:gentoo
+location	portage/repos.conf/localrepo.conf	/^location = \/var\/db\/repos\/localrepo\/$/;"	k	section:localrepo
+make.conf USE flags	README.md	/^## make.conf USE flags$/;"	s
+masters	portage/repos.conf/localrepo.conf	/^masters = gentoo$/;"	k	section:localrepo
+max	portage/repos.conf/gentoo.conf	/^sync-openpgp-key-refresh-retry-delay-max = 60$/;"	k	section:gentoo
+metamanifest	portage/repos.conf/gentoo.conf	/^sync-rsync-verify-metamanifest = yes$/;"	k	section:gentoo
+mult	portage/repos.conf/gentoo.conf	/^sync-openpgp-key-refresh-retry-delay-mult = 4$/;"	k	section:gentoo
+path	portage/repos.conf/gentoo.conf	/^sync-openpgp-key-path = \/usr\/share\/openpgp-keys\/gentoo-release.asc$/;"	k	section:gentoo
+repo	portage/repos.conf/gentoo.conf	/^main-repo = gentoo$/;"	k	section:DEFAULT
+signature	portage/repos.conf/gentoo.conf	/^sync-webrsync-verify-signature = yes$/;"	k	section:gentoo
+steam-overlay	portage/repos.conf/eselect-repo.conf	/^[steam-overlay]$/;"	s
+sync	portage/repos.conf/gentoo.conf	/^auto-sync = yes$/;"	k	section:gentoo
+sync	portage/repos.conf/localrepo.conf	/^auto-sync = no $/;"	k	section:localrepo
+timeout	portage/repos.conf/gentoo.conf	/^sync-openpgp-key-refresh-retry-overall-timeout = 1200$/;"	k	section:gentoo
+type	portage/repos.conf/eselect-repo.conf	/^sync-type = git$/;"	k	section:guru
+type	portage/repos.conf/eselect-repo.conf	/^sync-type = git$/;"	k	section:steam-overlay
+type	portage/repos.conf/eselect-repo.conf	/^sync-type = git$/;"	k	section:xdch47
+type	portage/repos.conf/gentoo.conf	/^sync-type = rsync$/;"	k	section:gentoo
+uri	portage/repos.conf/eselect-repo.conf	/^sync-uri = https:\/\/github.com\/gentoo-mirror\/guru.git$/;"	k	section:guru
+uri	portage/repos.conf/eselect-repo.conf	/^sync-uri = https:\/\/github.com\/gentoo-mirror\/steam-overlay.git$/;"	k	section:steam-overlay
+uri	portage/repos.conf/eselect-repo.conf	/^sync-uri = https:\/\/github.com\/gentoo-mirror\/xdch47.git$/;"	k	section:xdch47
+uri	portage/repos.conf/gentoo.conf	/^sync-uri = rsync:\/\/rsync.gentoo.org\/gentoo-portage$/;"	k	section:gentoo
+xdch47	portage/repos.conf/eselect-repo.conf	/^[xdch47]$/;"	s
